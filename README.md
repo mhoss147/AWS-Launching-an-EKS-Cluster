@@ -18,7 +18,10 @@
     
 - Launch an EC2 Instance and Configure the Command Line Tools
     
-    Create an EC2 instance in us-east-1region.
+    Create an EC2 instance in us-east-1 region. 
+    
+    select Auto assign public ip when creating ec2 instance > rest all defaults > download key pair
+    
     
     If necessary, upgrade the AWS CLI on your EC2 instance to CLI v.2x or later.
     
