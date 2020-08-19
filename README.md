@@ -11,6 +11,8 @@
     
     Create an IAM user with programmatic access and administrator-level privileges.
     
+    aws console > services > IAM > user > create user > programmatic access > attach existing policy directly > select AdministratorAccess > 
+    
     Take note of the access key and secret access key of your user because we will use them in the next step.
     
     
