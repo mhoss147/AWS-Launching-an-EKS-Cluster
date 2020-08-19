@@ -1,8 +1,12 @@
 # Launching-an-EKS-Cluster
 
-    Elastic Kubernetes Service (EKS) is a fully managed Kubernetes service from AWS. In this lab, you will work with the AWS command line interface and console, 
+    Elastic Kubernetes Service (EKS) is a fully managed Kubernetes service from AWS. 
+    
+    In this lab, you will work with the AWS command line interface and console, 
 
-    using command line utilities like eksctl and kubectl to launch an EKS cluster, provision a Kubernetes deployment and pod running instances of nginx, 
+    using command line utilities like eksctl and kubectl to launch an EKS cluster, 
+    
+    provision a Kubernetes deployment and pod running instances of nginx, 
     
     and create a LoadBalancer service to expose your application over the internet.
     
@@ -65,8 +69,3 @@
 
 
 
-
-    
-    
-    
-    
