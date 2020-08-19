@@ -1,4 +1,4 @@
-# AWS-Launching-an-EKS-Cluster
+# Launching-an-EKS-Cluster
 
     Elastic Kubernetes Service (EKS) is a fully managed Kubernetes service from AWS. In this lab, you will work with the AWS command line interface and console, 
 
@@ -37,10 +37,26 @@
 - Create a Deployment on Your EKS Cluster     
     
     Use kubectl to create a LoadBalancer service.
+    
     Check the status of your LoadBalancer service using kubectl.
+    
     Use kubectl to create a Deployment on your EKS cluster, using the standard nginx image EKS has available in the default Docker Hub registry.
+    
     Check the status of your cluster, deployment, and pods using kubectl.
+    
     When the Deployment is up and running, check that you can access your application using the DNS name of the LoadBalan
+
+
+- Test the High Availability Features of Your EKS Cluster 
+
+    In the AWS Console, shut down all the worker nodes.
+    
+    Check the status of your cluster, deployment, and pods using kubectl.
+    
+    After a few minutes, you should see EKS launching new instances to keep your service running.
+    
+    When the cluster is back to a steady state, check that your application is up and running.
+
 
 
 
